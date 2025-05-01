@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>New Form</h1>
+    <main>
+        <form action="https://formspree.io/f/mkgrjnwz" method="POST">
+            <fieldset>
+                <legend>Contact Information</legend>
+                
+                <label for="Name">Name*:</label>
+                <input type="text" id="name" name="name" value="true" placeholder="Ex:John Doe" required>
+                
+                <label for="email">Email*:</label>
+                <input type="email" id="email" name="email" value="true" placeholder="Ex:JohnDoe@gmail.com" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Aditional Text </legend>
+                <label for="text">Text:</label>
+                <textarea name="messenge" placeholder="text"></textarea>
+            </fieldset>
+
+            <button type="submit">send</button>
+            <button type="reset">reset</button>
+        </form>
+    </main>
+</body>
+</html>

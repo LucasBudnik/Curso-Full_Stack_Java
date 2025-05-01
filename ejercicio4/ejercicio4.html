@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Ejemplo de formulario básico en html</h1>
+  <!-- modify this form HTML and place wherever you want your form -->
+  <form
+    action="https://formspree.io/f/mpwdqlda"
+    method="POST"
+  >
+  <fieldset>
+    <legend>Perfil</legend>
+      <label for="text">Name:</label>
+      <input type="text" placeholder="John Doe" required>
+      <br>    
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="test@gmail.com" required>
+  </fieldset>
+  <fieldset>
+    <legend>Anexo</legend>
+      <label for="message">Your message:</label> <br>  
+      <textarea id="message" name="message" rows="2" cols="50" placeholder="required" required></textarea>
+    <!-- your other form fields go here -->
+  </fieldset>  
+    <label>
+      <button type="submit">Send</button>
+      <button type="reset">Reset</button>
+      <button type="menu">Menu</button>
+    </label>
+  </form>
+</body>
+</html>
