@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario básico para HTMLº</title>
+</head>
+<body>
+    <h1>Formulario básico</h1>
+
+    <form action="https://formspreed.io/f/mnnprpvr" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="name" required placeholder="Ingrese su nombre" minlenght="3" maxleght="20">
+     
+        <fieldset>
+            <legend>Genéro</legend>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="Hombre" name="genero" value="hombre">
+        
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="Mujer" name="genero" value="mujer">
+        
+            <label for="otro">Otro</label>
+            <input type="radio" id="Otro" name="genero" value="otro">
+        
+        </fieldset>
+        
+        <fieldset>
+            <legend>Intereses</legend>
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="html" value="HTML">
+
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="css" value="css">
+
+            <label for="js">JavaScript</label>
+            <input type="checkbox" id="js" name="javas" value="JavaScript">
+        </fieldset>
+
+        <label for="país" >Pais</label>
+        <select id="país" name="país">
+            <option value="Es">España</option>
+            <option value="Fr">Francia</option>
+            <option value="Al">Alemania</option>
+        </select>
+    </form>
+    
+
+    <br><br>
+    <!-- <label for="archivo">Nombre</label> -->
+    <input type="file" accept=".jpg, .png, .pdf" name="archivo">
+    
+    <br><br>
+    <!--<label for="comentario">Comentario</label> -->
+    <!-- <input type="email" pattern="[]" -->
+
+    <textarea
+
+
+    <br><br>
+    <button type="submit" value="Cargar Datos">
+    <button type="reset" value="Limpiar">
+</body>
+</html>
+
+<!-- <fieldset>
+            <legend>Genéro</legend>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="Hombre" name="genero" value="hombre">
+        
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="Mujer" name="genero" value="mujer">
+        
+            <label for="otro">Otro</label>
+            <input type="radio" id="Otro" name="genero" value="otro">
+        
+        </fieldset> -->

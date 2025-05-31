@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    header{    
+        position: fixed;
+        display:flex;
+        background-color: #333;
+        color:white;    
+        align-items:center;
+        justify-content:space-between;
+        width:100%;
+        height:80px;
+        padding:0 20px;
+        z-index:10;
+        /*
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+        }*/
+        .navbar{
+            
+
+            background-color:#333;
+            color:white;
+            
+            display:flex;
+            right:10px;
+            align-items:center;
+            justify-content:flex-end;
+            
+            .nav-list{
+                display:flex;
+                color:white;
+                font-size:18px;
+                .nav-item {
+                    /*padding: 0 20px;*/
+                    margin: 0 10px;
+                    text-decoration:none;
+                    color:white;
+                    list-style:none;
+                    .nav-ref {
+                        text-decoration:none;
+                        color:white;
+                        &:hover{
+                            color: #f4f4f4;
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    main{
+        .grid-container{
+            position:absolute;
+            background-color: #f4f4f4;
+            display:grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            padding: 0px 20px 20px; /* Adjusted for header height */
+            margin-top: 100px;
+            max-width: 1200px; /* Optional: to limit the width of the main content */
+            .grid-item{
+                background-color: green;
+                color:black;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                text-align: center;
+            }
+        }
+
+        .form-container{
+            position:absolute;
+            margin-top: 100px;
+            width: auto;
+            left: 20px;
+            .Contact-info{
+                margin:10px;
+            }
+            .Message-info{
+                margin:10px;
+            }
+            .required
+            {
+                color: red;
+            }
+        }
+    }
+    footer{
+        position:absolute;
+
+        background-color: #333;
+        color:white;
+        width:100%;
+        height:60px;
+        bottom:0;
+
+    }
+
+
+
+
+
+
+
+}

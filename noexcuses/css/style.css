@@ -1,0 +1,77 @@
+body{
+    background-image:linear-gradient(to bottom, #000000, #552928, #a25730, #d89921, #e8eb12);
+    
+    #titulo{
+        color: #d0cecec5;
+        text-align: center;
+    }
+    /*--------------------------------------------*/
+    /*Navigator var*/
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin: 0 10px;
+            a{
+                text-decoration: none;
+                .nav-list{
+                    list-style: none;
+                    text-decoration: none;
+                    margin:auto;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    /*--------------------------------------------*/
+    #titulo2{
+        color: #ffffff;
+        text-align: left;
+    }
+    /*--------------------------------------------*/
+    #titulo3{
+        color: #000000;
+        text-align: center;
+    }
+    /*--------------------------------------------*/
+    p{
+        color:lightgrey;
+        font-style:italic;
+    }
+}
+
+
+/*
+.nav-list{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin:auto;
+    padding: 10px;
+}
+*/
+#external-references{
+    color:white;
+    font-style:italic;
+}
+
+nav{
+    border:solid 1px #ffffff86;
+}
+
+.logo
+{
+    background-image: url(https://picsum.photos/200/200?random=2);
+
+}
+/*
+ul{
+    list-style: none;
+}
+li{
+    margin: 0 10px;
+}
+a{
+    text-decoration: none;
+}
+*/
